@@ -1,0 +1,19 @@
+{
+  "name": "regex-dictionary",
+  "version": "1.0.0",
+  "description": "A regular expression searchable dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "dict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrink/Regex-Dictionary.git"
+  },
+  "author": "David Wikler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrink/Regex-Dictionary/issues"
+  },
+  "homepage": "https://github.com/wrink/Regex-Dictionary#readme"
+}

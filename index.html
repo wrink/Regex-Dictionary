@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Regex Dictionary</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+		<script src="./search.js"></script>
+		<style>
+			#custom-search-input{
+				padding: 3px;
+				border: solid 1px #E4E4E4;
+				border-radius: 6px;
+			}
+			#custom-search-input input{
+				float: left;
+				border: 0;
+				box-shadow: none;
+			}
+			#custom-search-input button{
+				float: left;
+				margin: 2px 0 0 0;
+				background: none;
+				box-shadow: none;
+				border: 0;
+				color: #666666;
+				padding: 0 8px 0 10px;
+				border-left: solid 1px #ccc;
+			}
+			#custom-search-input button:hover{
+				border: 0;
+				box-shadow: none;
+				border-left: solid 1px #ccc;
+			}
+			#custom-search-input button:active{
+				color: #67BFFF;
+			}
+			#custom-search-input label{
+				font-size: 26px;
+				padding: 4px 0 3px 0;
+				float: left;
+				margin: 0;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				-o-user-select: none;
+				user-select: none;
+			}
+			#custom-search-input .glyphicon-search{
+				font-size: 23px;
+			}
+
+			#pattern {
+				width: 93%!important;
+			}
+			input,
+			select,
+			textarea,
+			button {
+				outline: none!important;
+			}
+		</style>
+	</head>
+	<body ng-app="regexDict" ng-controller="regexSearch">
+		<div class="container">
+			<div class="col-md-12 col-lg-12">
+				<h2>Regex Dictionary</h2>
+			</div>
+			<search-bar></search-bar>
+		</div>
+	</body>
+</html>
